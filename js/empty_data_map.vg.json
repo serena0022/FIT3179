@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Tourism Growth in Australia: 2019 to 2024",
+  "title": "Global Tourist Recovery to Australia: Pre-COVID vs 2024",
   "width": 800,
   "height": 500,
   "data": {
