@@ -1,0 +1,402 @@
+[
+    {
+        "Industry": "Agriculture",
+        "State": "NSW",
+        "Value": 2.0
+    },
+    {
+        "Industry": "Mining",
+        "State": "NSW",
+        "Value": 4.5
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "NSW",
+        "Value": 5.8
+    },
+    {
+        "Industry": "Construction",
+        "State": "NSW",
+        "Value": 7.3
+    },
+    {
+        "Industry": "Finance",
+        "State": "NSW",
+        "Value": 10.4
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "NSW",
+        "Value": 9.5
+    },
+    {
+        "Industry": "Education",
+        "State": "NSW",
+        "Value": 5.1
+    },
+    {
+        "Industry": "Health",
+        "State": "NSW",
+        "Value": 7.6
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "NSW",
+        "Value": 2.4
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "NSW",
+        "Value": 4.7
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "Vic",
+        "Value": 2.0
+    },
+    {
+        "Industry": "Mining",
+        "State": "Vic",
+        "Value": 1.7
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "Vic",
+        "Value": 7.1
+    },
+    {
+        "Industry": "Construction",
+        "State": "Vic",
+        "Value": 8.0
+    },
+    {
+        "Industry": "Finance",
+        "State": "Vic",
+        "Value": 9.7
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "Vic",
+        "Value": 9.5
+    },
+    {
+        "Industry": "Education",
+        "State": "Vic",
+        "Value": 5.6
+    },
+    {
+        "Industry": "Health",
+        "State": "Vic",
+        "Value": 9.5
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "Vic",
+        "Value": 2.4
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "Vic",
+        "Value": 4.8
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "Qld",
+        "Value": 2.7
+    },
+    {
+        "Industry": "Mining",
+        "State": "Qld",
+        "Value": 18.3
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "Qld",
+        "Value": 5.8
+    },
+    {
+        "Industry": "Construction",
+        "State": "Qld",
+        "Value": 7.2
+    },
+    {
+        "Industry": "Finance",
+        "State": "Qld",
+        "Value": 5.2
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "Qld",
+        "Value": 6.3
+    },
+    {
+        "Industry": "Education",
+        "State": "Qld",
+        "Value": 4.8
+    },
+    {
+        "Industry": "Health",
+        "State": "Qld",
+        "Value": 8.4
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "Qld",
+        "Value": 3.0
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "Qld",
+        "Value": 6.0
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "SA",
+        "Value": 5.8
+    },
+    {
+        "Industry": "Mining",
+        "State": "SA",
+        "Value": 4.3
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "SA",
+        "Value": 6.4
+    },
+    {
+        "Industry": "Construction",
+        "State": "SA",
+        "Value": 7.6
+    },
+    {
+        "Industry": "Finance",
+        "State": "SA",
+        "Value": 7.3
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "SA",
+        "Value": 5.9
+    },
+    {
+        "Industry": "Education",
+        "State": "SA",
+        "Value": 6.0
+    },
+    {
+        "Industry": "Health",
+        "State": "SA",
+        "Value": 11.2
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "SA",
+        "Value": 2.6
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "SA",
+        "Value": 5.3
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "WA",
+        "Value": 2.6
+    },
+    {
+        "Industry": "Mining",
+        "State": "WA",
+        "Value": 46.6
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "WA",
+        "Value": 4.3
+    },
+    {
+        "Industry": "Construction",
+        "State": "WA",
+        "Value": 5.3
+    },
+    {
+        "Industry": "Finance",
+        "State": "WA",
+        "Value": 3.3
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "WA",
+        "Value": 4.5
+    },
+    {
+        "Industry": "Education",
+        "State": "WA",
+        "Value": 2.7
+    },
+    {
+        "Industry": "Health",
+        "State": "WA",
+        "Value": 4.8
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "WA",
+        "Value": 1.4
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "WA",
+        "Value": 2.8
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "Tas",
+        "Value": 9.2
+    },
+    {
+        "Industry": "Mining",
+        "State": "Tas",
+        "Value": 4.4
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "Tas",
+        "Value": 5.6
+    },
+    {
+        "Industry": "Construction",
+        "State": "Tas",
+        "Value": 7.3
+    },
+    {
+        "Industry": "Finance",
+        "State": "Tas",
+        "Value": 5.4
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "Tas",
+        "Value": 3.8
+    },
+    {
+        "Industry": "Education",
+        "State": "Tas",
+        "Value": 6.2
+    },
+    {
+        "Industry": "Health",
+        "State": "Tas",
+        "Value": 14.5
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "Tas",
+        "Value": 4.1
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "Tas",
+        "Value": 8.3
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "NT",
+        "Value": 2.3
+    },
+    {
+        "Industry": "Mining",
+        "State": "NT",
+        "Value": 29.3
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "NT",
+        "Value": 3.7
+    },
+    {
+        "Industry": "Construction",
+        "State": "NT",
+        "Value": 6.0
+    },
+    {
+        "Industry": "Finance",
+        "State": "NT",
+        "Value": 2.3
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "NT",
+        "Value": 2.9
+    },
+    {
+        "Industry": "Education",
+        "State": "NT",
+        "Value": 5.0
+    },
+    {
+        "Industry": "Health",
+        "State": "NT",
+        "Value": 8.4
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "NT",
+        "Value": 3.6
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "NT",
+        "Value": 7.2
+    },
+    {
+        "Industry": "Agriculture",
+        "State": "ACT",
+        "Value": 0.1
+    },
+    {
+        "Industry": "Mining",
+        "State": "ACT",
+        "Value": 0.1
+    },
+    {
+        "Industry": "Manufacturing",
+        "State": "ACT",
+        "Value": 1.1
+    },
+    {
+        "Industry": "Construction",
+        "State": "ACT",
+        "Value": 6.8
+    },
+    {
+        "Industry": "Finance",
+        "State": "ACT",
+        "Value": 2.9
+    },
+    {
+        "Industry": "Professional Services",
+        "State": "ACT",
+        "Value": 11.4
+    },
+    {
+        "Industry": "Education",
+        "State": "ACT",
+        "Value": 5.7
+    },
+    {
+        "Industry": "Health",
+        "State": "ACT",
+        "Value": 9.1
+    },
+    {
+        "Industry": "Tourism (Direct)",
+        "State": "ACT",
+        "Value": 2.5
+    },
+    {
+        "Industry": "Tourism (Total)",
+        "State": "ACT",
+        "Value": 4.9
+    }
+]
