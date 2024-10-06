@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Industry Shares of Key Economic Aggregates by State (2022-23)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/XinluTian/FIT3179/0808f2b930a391daccd46da9542f522aa2105d9a/HW10/industry_shares_by_state.json",
+      "format": {
+        "type": "json"
+      }
+    },
+    "width": 800,
+    "height": 600,
+    "selection": {
+      "IndustrySelection": {
+        "type": "multi",
+        "fields": ["Industry"],
+        "bind": "legend"
+      }
+    },
+    "transform": [
+      {
+        "calculate": "datum.State == 'NSW' ? 'New South Wales' : datum.State == 'Vic' ? 'Victoria' : datum.State == 'Qld' ? 'Queensland' : datum.State == 'SA' ? 'South Australia' : datum.State == 'WA' ? 'Western Australia' : datum.State == 'Tas' ? 'Tasmania' : datum.State == 'NT' ? 'Northern Territory' : datum.State == 'ACT' ? 'Australian Capital Territory' : datum.State",
+        "as": "StateFullName"
+      }
+    ],
+    "mark": {
+      "type": "bar",
+      "tooltip": true
+    },
+    "encoding": {
+      "x": {
+        "field": "StateFullName",
+        "type": "nominal",
+        "title": "State",
+        "axis": {
+          "labelAngle": -45
+        }
+      },
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "stack": "normalize",
+        "title": "Industry Share (%)"
+      },
+      "color": {
+        "type": "nominal",
+        "field": "Industry",
+        "scale": {
+          "range": [
+            "#2163aa",
+            "#22964f",
+            "#bf363a",
+            "#ff9900",
+            "#6b5b95",
+            "#a2b9bc",
+            "#d64161",
+            "#ff7b25",
+            "#33a02c",
+            "#fb9a99"
+          ]
+        },
+        "title": "Industry Type"
+      },
+      "opacity": {
+        "condition": {
+          "selection": "IndustrySelection",
+          "value": 1
+        },
+        "value": 0.2
+      },
+      "tooltip": [
+        {"field": "Industry", "type": "nominal", "title": "Industry Type"},
+        {"field": "Value", "type": "quantitative", "format": ".2f", "title": "Share (%)"},
+        {"field": "StateFullName", "type": "nominal", "title": "State"}
+      ]
+    },
+    
+    "config": {
+      "title": {
+        "font": "Roboto Condensed",
+        "fontSize": 14,
+        "dx": 0
+      },
+      "numberFormat": ".2f"
+    }
+  }
+  
