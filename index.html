@@ -1,28 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vega Visualization</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 引用 CSS 文件 -->
   
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <!-- 引入 Vega, Vega-Lite, 和 Vega-Embed 库 -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.0"></script>
 
+  <style>
+    /* 创建一个包含图表和注释的容器，使用 flex 布局 */
+    .chart-with-annotation {
+      display: flex;
+      justify-content: space-between; /* 图表和注释之间留出空间 */
+      align-items: flex-start; /* 顶部对齐图表和注释 */
+    }
 
+    .vega-container {
+      width: 70%; /* 图表宽度为页面的 70% */
+    }
+
+    .annotation {
+      position: absolute; /* 使用绝对定位 */
+      bottom: 350px; /* 注释距离底部 10px */
+      right: 350px; /* 注释距离右侧 10px */
+      background-color: rgba(255, 255, 255, 0.8); /* 为注释添加半透明背景，确保在图表上清晰显示 */
+      padding: 10px; /* 注释内容的内边距 */
+      border-radius: 5px; /* 添加圆角边框 */
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* 添加轻微阴影 */
+    }
+  </style>
 </head>
 <body>
+
+  <h1>Homework10</h1>
+
+  <!-- 包含图表和注释的容器 -->
+  <div class="chart-with-annotation">
+    <!-- 图表容器 -->
+    <div class="vega-container">
+      <div id="vega-chart1"></div>
+    </div>
+
+    <!-- 注释容器，显示在图表右侧 -->
+    <div class="annotation">
+      <p><strong>Note:</strong> Western Australia has the highest mining share.</p>
+    </div>
+  </div>
+
+  <!-- 第二个可视化容器 -->
+  <div class="vega-container2">
+    <div id="vega-chart2"></div>
+  </div>
+
+  <script>
+    const spec1 = "js/normalised_stacked_bar.vg.json";
+    const spec2 = "js/empty_data_map.vg.json";
   
-<div id="choropleth_map"></div>
-
-<script type="text/javascript">
-
-  var spec2 = "js/empty_data_map.vg.json";
-  vegaEmbed('#choropleth_map', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
+    vegaEmbed('#vega-chart1', spec1);
+    vegaEmbed('#vega-chart2', spec2);
+  </script>  
 
 </body>
 </html>
-
